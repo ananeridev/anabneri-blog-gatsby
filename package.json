@@ -1,0 +1,18 @@
+{
+    "private": true,
+    "workspaces": [
+        "gatsby-theme-elemental",
+        "site"
+    ],
+    "scripts": {
+        "develop": "yarn workspace site develop",
+        "build": "yarn workspace site build",
+        "clean": "yarn workspace site clean"
+    },
+    "dependencies": {
+        "gatsby-theme-elemental": "file:gatsby-theme-elemental",
+        "react-disqus-comments": "^1.4.0",
+        "styled-components": "^5.1.0",
+        "styled-media-query": "^2.1.2"
+    }
+}
