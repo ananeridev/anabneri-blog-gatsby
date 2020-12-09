@@ -11,14 +11,4 @@ I used some technologies in this project:
 - SaaS
 - Graphql
 
-# :nail_care: Design thought to be minimalist, objective
 
-### Using Dark Mode :new_moon:
-...
-
-### and Light Mode :sun_with_face:
-
-...
-
-# :two_hearts: Accepted Pull Requests
-# anabneri-blog-gatsby
