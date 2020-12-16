@@ -31,6 +31,9 @@ export default function() {
                         }
                         fields {
                             slug
+                            readingTime {
+                                text
+                            }
                         }
                     }
                 }

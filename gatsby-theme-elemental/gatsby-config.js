@@ -1,4 +1,4 @@
-const path = require("path");
+const path = require('path');
 
 module.exports = ({ contentPath = `contents` }) => {
     return {
@@ -10,7 +10,8 @@ module.exports = ({ contentPath = `contents` }) => {
                 resolve: `gatsby-transformer-remark`,
                 options: {
                     plugins: [
-                        "gatsby-remark-copy-linked-files",
+                        `gatsby-remark-copy-linked-files`,
+                        `gatsby-remark-reading-time`,
                         {
                             resolve: `gatsby-remark-images`,
                             options: {
