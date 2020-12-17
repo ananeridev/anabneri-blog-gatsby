@@ -3,6 +3,7 @@ title: React.js em 5 minutos
 description: Introdução ao React em 5 minutos 😎
 date: 2019-08-08
 template: blog
+thumbnail: ./react-capa2.jpg
 image: ./react-capa2.jpg
 banner: ./react-capa2.jpg
 ---

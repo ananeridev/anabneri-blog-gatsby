@@ -3,6 +3,7 @@ title: .VM properties and Memory in JVM
 description: JVM under the hood part2 - VMproperties and introduction to Memory
 date: 2020-03-28
 template: blog
+thumbnail: ./coffe_java.jpg
 image: ./coffe_java.jpg
 banner: ./coffe_java.jpg
 ---
