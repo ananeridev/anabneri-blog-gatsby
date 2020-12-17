@@ -11,6 +11,7 @@ module.exports = ({ contentPath = `contents` }) => {
                 options: {
                     plugins: [
                         "gatsby-remark-copy-linked-files",
+                        "gatsby-remark-reading-time",
                         {
                             resolve: `gatsby-remark-images`,
                             options: {

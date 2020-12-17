@@ -19,12 +19,13 @@ class BlogItem extends React.Component {
             <div className="item col s12 m6">
                 <div className="box">
                     <div className="image">
-                        <Img
+                        {!!this.props.data.node?.frontmatter?.image
+                                    ?.childImageSharp?.fluid && (<Img
                             fluid={
                                 this.props.data.node.frontmatter.image
                                     .childImageSharp.fluid
                             }
-                        />
+                        />)}
                         <Link
                             to={this.props.data.node.fields.slug}
                             title={this.props.data.node.frontmatter.title}
