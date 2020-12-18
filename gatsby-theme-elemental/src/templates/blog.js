@@ -19,7 +19,7 @@ export default function ({ data }) {
             />
             <div className="container">
                 <article className="blog-post">
-                    {data.markdownRemark.frontmatter.banner != null && (
+                    {!!data.markdownRemark.frontmatter.banner  && (
                         <div className="banner">
                             <Img
                                 fluid={
@@ -32,7 +32,7 @@ export default function ({ data }) {
                     <div className="head text-primary">
                         <h1>{data.markdownRemark.frontmatter.title}</h1>
                         <p className="post-date">
-                            <Date data={data.markdownRemark.frontmatter.date} />
+                            <Date data={data.markdownRemark.frontmatter.date} /> | <span>{data.markdownRemark.fields.readingTime.text}</span>
                         </p>
                     </div>
                     <div className="content row flex">
@@ -59,6 +59,9 @@ export const query = graphql`
         markdownRemark(fields: { slug: { eq: $slug } }) {
             fields {
                 slug
+                readingTime {
+                    text
+                }
             }
             html
             id
