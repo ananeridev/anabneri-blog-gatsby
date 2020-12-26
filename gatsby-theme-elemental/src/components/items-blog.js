@@ -20,10 +20,10 @@ class BlogItem extends React.Component {
                 <div className="box">
                     <div className="image">
                         {!!this.props.data.node?.frontmatter?.image
-                                    ?.childImageSharp?.fluid && (<Img
-                            fluid={
+                                    ?.childImageSharp?.fixed && (<Img
+                            fixed={
                                 this.props.data.node.frontmatter.image
-                                    .childImageSharp.fluid
+                                    .childImageSharp.fixed
                             }
                         />)}
                         <Link

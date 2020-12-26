@@ -25,6 +25,10 @@ export default function() {
                                         srcSet
                                         ...GatsbyImageSharpFluid
                                     }
+                                    fixed(height: 200, width: 200) {
+                                        src
+                                        ...GatsbyImageSharpFixed
+                                    }
                                     id
                                 }
                             }
