@@ -64,7 +64,11 @@ function SEO({ description, lang, meta, title, image }) {
                     content: title
                 },
                 {
-                    property: `twitter:image:src`,
+                    name: `twitter:image`,
+                    content: srcImg
+                },
+                {
+                    name: `twitter:image:src`,
                     content: srcImg
                 },
                 {
