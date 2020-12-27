@@ -85,6 +85,7 @@ function SEO({ description, lang, meta, title, image }) {
                 }
             ].concat(meta)}
         />
+        
     );
 }
 
