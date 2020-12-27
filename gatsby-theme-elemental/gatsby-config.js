@@ -24,7 +24,7 @@ module.exports = ({ contentPath = `contents` }) => {
                               title: 'anabneri.com.br', // website title
                               separator: '|', // default
                               author: 'Ana Beatriz Neri',
-                              background: require.resolve('./static/images/thumb-anabneri2.png'), // path to 1200x630px file or hex code, defaults to black (#000000)
+                              background: require.resolve('../site/static/images/thumb-anabneri2.png'), // path to 1200x630px file or hex code, defaults to black (#000000)
                               fontColor: '#ffffff', // defaults to white (#ffffff)
                               titleFontSize: 96, // default
                               subtitleFontSize: 60, // default
