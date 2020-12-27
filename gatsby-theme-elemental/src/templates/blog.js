@@ -9,6 +9,7 @@ import "../style/blog-singlepage.less"
 import Comments from "../components/Comments"
 
 export default function ({ data }) {
+    console.log(data.markdownRemark.frontmatter);
     return (
         <Layout>
             <SEO

@@ -9,6 +9,7 @@ import SEO from "../components/seo";
 class BlogList extends React.Component {
     render() {
         const query = this.props.datas;
+        console.log(query)
         if (query.allMarkdownRemark.edges.length > 0) {
             return (
                 <section id="blog" className="container">

@@ -63,6 +63,10 @@ function SEO({ description, lang, meta, title, image }) {
                     content: title
                 },
                 {
+                    name: `twitter:image`,
+                    content: ogImage
+                },
+                {
                     name: `twitter:description`,
                     content: metaDescription
                 },
