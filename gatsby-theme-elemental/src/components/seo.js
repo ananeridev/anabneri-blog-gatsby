@@ -22,7 +22,7 @@ function SEO({ description, lang, meta, title, image }) {
     const metaDescription = description || site.siteMetadata.description;
     const ogImage = image || site.siteMetadata.logo;
 
-    const srcImg = `https://anabneri.com.br${ogImage}`;
+    const srcImg = `https://anabneri.com.br/images/thumb-anabneri2.png`;
     console.log('og', ogImage, srcImg)
     return (
         <Helmet
