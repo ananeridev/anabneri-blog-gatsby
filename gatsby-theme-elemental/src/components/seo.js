@@ -64,11 +64,11 @@ function SEO({ description, lang, meta, title, image }) {
                     content: title
                 },
                 {
-                    name: `twitter:image`,
+                    property: `twitter:image`,
                     content: srcImg
                 },
                 {
-                    name: `twitter:image:src`,
+                    property: `twitter:image:src`,
                     content: srcImg
                 },
                 {
@@ -80,7 +80,7 @@ function SEO({ description, lang, meta, title, image }) {
                     content: metaDescription
                 },
                 {
-                    name: `og:image`,
+                    property: `og:image`,
                     content: srcImg
                 }
             ].concat(meta)}
