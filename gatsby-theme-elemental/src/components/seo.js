@@ -68,6 +68,10 @@ function SEO({ description, lang, meta, title, image }) {
                     content: srcImg
                 },
                 {
+                    name: `twitter:summary_large_image`,
+                    content: `summary`,
+                },
+                {
                     name: `twitter:description`,
                     content: metaDescription
                 },
