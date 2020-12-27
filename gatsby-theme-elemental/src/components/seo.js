@@ -21,7 +21,8 @@ function SEO({ description, lang, meta, title, image }) {
 
     const metaDescription = description || site.siteMetadata.description;
     const ogImage = image || site.siteMetadata.logo;
-    const srcImg = window.location.origin + ogImage;
+
+    const srcImg = typeof window !== "undefined" ? window.location.origin + ogImage : ogImage;
     console.log('og', ogImage)
     return (
         <Helmet
