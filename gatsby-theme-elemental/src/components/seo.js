@@ -22,8 +22,8 @@ function SEO({ description, lang, meta, title, image }) {
     const metaDescription = description || site.siteMetadata.description;
     const ogImage = image || site.siteMetadata.logo;
 
-    const srcImg = typeof window !== "undefined" ? window.location.origin + ogImage : ogImage;
-    console.log('og', ogImage)
+    const srcImg = `https://anabneri.com.br${ogImage}`;
+    console.log('og', ogImage, srcImg)
     return (
         <Helmet
             htmlAttributes={{
